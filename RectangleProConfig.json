@@ -313,6 +313,10 @@
       "keyCode" : 125,
       "modifierFlags" : 786432
     },
+    "centerHalf" : {
+      "keyCode" : 121,
+      "modifierFlags" : 262144
+    },
     "fillLeft" : {
       "keyCode" : 123,
       "modifierFlags" : 786432
@@ -334,6 +338,6 @@
       "modifierFlags" : 262144
     }
   },
-  "timestamp" : 693808264.57989502,
+  "timestamp" : 694680734.08832598,
   "version" : "116"
 }
