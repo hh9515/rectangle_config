@@ -74,7 +74,7 @@
       "int" : 1
     },
     "footprintAlpha" : {
-      "float" : 0.30000001192092896
+      "float" : 0.3
     },
     "footprintBorderWidth" : {
       "float" : 2
@@ -140,7 +140,7 @@
       "int" : 0
     },
     "moveCursorAcrossDisplays" : {
-      "int" : 0
+      "int" : 1
     },
     "multiWindowAllDisplays" : {
       "int" : 0
@@ -188,7 +188,7 @@
       "int" : 2
     },
     "reticleColor" : {
-      "string" : "{\"red\":0.80000000000000004,\"alpha\":0.5,\"blue\":0.20000000000000001,\"green\":0.29999999999999999}"
+      "string" : "{\"red\":0.8,\"green\":0.3,\"alpha\":0.5,\"blue\":0.2}"
     },
     "reticleDisplayMinDist" : {
       "float" : 0
@@ -260,7 +260,7 @@
       "float" : 1680
     },
     "stageSize" : {
-      "float" : 145.13938903808594
+      "float" : 145.13939
     },
     "stashClearedByOtherActions" : {
       "int" : 0
@@ -278,7 +278,7 @@
       "int" : 0
     },
     "stashHideTime" : {
-      "double" : 0.29999999999999999
+      "double" : 0.3
     },
     "stashHideUsingMod" : {
       "int" : 0
@@ -290,7 +290,7 @@
       "int" : 0
     },
     "stashShowTime" : {
-      "double" : 0.29999999999999999
+      "double" : 0.3
     },
     "stashShowUsingMod" : {
       "int" : 0
@@ -355,6 +355,10 @@
   },
   "shortcuts" : {
     "almostMaximize" : {
+      "keyCode" : 126,
+      "modifierFlags" : 786432
+    },
+    "bottomHalf" : {
       "keyCode" : 125,
       "modifierFlags" : 786432
     },
@@ -399,16 +403,28 @@
       "modifierFlags" : 786432
     },
     "maximize" : {
-      "keyCode" : 126,
-      "modifierFlags" : 786432
+      "keyCode" : 116,
+      "modifierFlags" : 262144
     },
     "maximizeHeight" : {
       "keyCode" : 126,
       "modifierFlags" : 917504
     },
+    "nextDisplayRatio" : {
+      "keyCode" : 119,
+      "modifierFlags" : 262144
+    },
+    "prevDisplayRatio" : {
+      "keyCode" : 115,
+      "modifierFlags" : 262144
+    },
     "restore" : {
       "keyCode" : 51,
       "modifierFlags" : 786432
+    },
+    "revealDesktopEdge" : {
+      "keyCode" : 2,
+      "modifierFlags" : 1572864
     },
     "rightHalf" : {
       "keyCode" : 124,
@@ -427,6 +443,6 @@
       "modifierFlags" : 786432
     }
   },
-  "timestamp" : 705780020.95165503,
+  "timestamp" : 743506442.377945,
   "version" : "127"
 }
